@@ -24,6 +24,8 @@ public class MySQLUserDetailsService implements UserDetailsService {
 
         try {
             User client = users.findByUsername(username);
+//            User client = users.findByUser(username);
+
             loadedUser = new org.springframework.security.core.userdetails.User(
                     client.getUsername(), client.getPassword(),
                     DummyAuthority.getAuth());

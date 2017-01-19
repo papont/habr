@@ -5,4 +5,5 @@ import ru.sam.habr.model.User;
 
 public interface UsersRepository extends CrudRepository<User, Long>{
     User findByUsername(String username);
+
 }
