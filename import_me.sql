@@ -67,7 +67,7 @@ INSERT INTO `users` (`id`, `username`, `password`)
 VALUES
 	(1,'user','user'),
 	(2,'another','lol'),
-	(4,'userandadmin','123');
+	(4,'admin','123');
 
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
